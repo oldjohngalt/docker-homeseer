@@ -1,8 +1,8 @@
-## HomeSeer HS3 Docker Image
+## HomeSeer HS4 Docker Image
 
-This image containerizes the HomeSeer HS3 home automation software. 
+This image containerizes the HomeSeer HS4 home automation software. 
 
-Current HomeSeer version: **HS3 3.0.0.548**
+Current HomeSeer version: **HS4 4.0.1.30**
 
 ### Running the HomeSeer Container
 
@@ -35,7 +35,7 @@ docker run -d \
 
 | Tag | Description |
 |-----|-------------|
-| `latest` | The latest version of HomeSeer 3 for Linux including avahi-daemon and dbus-daemon for wider plugin support|
+| `latest` | The latest version of HomeSeer 4 for Linux including avahi-daemon and dbus-daemon for wider plugin support|
 
 
 ### Updating HomeSeer
@@ -71,4 +71,4 @@ Many improvements to this image have been made by @E1iTeDa357, including the add
 19 January 2018: Added mono-devel.  
 21 February 2018: Refactored latest, changed base image to mono:5.  
 6 March 2019: Bumped to HS3 3.0.0.500; added Avahi and dbus; changed to s6-overlay; pinned Mono base image to prevent unintended breakage.  
-
+20 February 2020: First release for HS4 4.0.1.30
